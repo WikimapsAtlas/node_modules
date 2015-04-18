@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-static',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json wikiatlas@0.0.1 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'node-static', null ]
+8 verbose cache add name=undefined spec="node-static" args=["node-static",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'node-static',
+9 verbose parsed url   path: 'node-static',
+9 verbose parsed url   href: 'node-static' }
+10 silly lockFile 17070c41-node-static node-static
+11 verbose lock node-static /home/yug/.npm/17070c41-node-static.lock
+12 silly lockFile 17070c41-node-static node-static
+13 silly lockFile 17070c41-node-static node-static
+14 verbose addNamed [ 'node-static', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 5704b874-node-static node-static@
+17 verbose lock node-static@ /home/yug/.npm/5704b874-node-static.lock
+18 silly addNameRange { name: 'node-static', range: '*', hasData: false }
+19 verbose request where is /node-static
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 4471693758ac0d96
+22 verbose url raw /node-static
+23 verbose url resolving [ 'https://registry.npmjs.org/', './node-static' ]
+24 verbose url resolved https://registry.npmjs.org/node-static
+25 verbose request where is https://registry.npmjs.org/node-static
+26 info trying registry request attempt 1 at 22:15:59
+27 verbose etag "AI5ONJQSVPDGJMB8IKJFG22BF"
+28 http GET https://registry.npmjs.org/node-static
+29 http 200 https://registry.npmjs.org/node-static
+30 silly registry.get cb [ 200,
+30 silly registry.get   { date: 'Sat, 14 Mar 2015 21:16:00 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"5LONJTTNWPGKQ61J708Y1ZS8K"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     'content-length': '31540',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '1',
+30 silly registry.get     'x-timer': 'S1426367760.015280,VS0,VE100',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly addNameRange number 2 { name: 'node-static', range: '*', hasData: true }
+32 silly addNameRange versions [ 'node-static',
+32 silly addNameRange   [ '0.5.6',
+32 silly addNameRange     '0.5.7',
+32 silly addNameRange     '0.5.8',
+32 silly addNameRange     '0.5.9',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.6.1',
+32 silly addNameRange     '0.6.2',
+32 silly addNameRange     '0.6.3',
+32 silly addNameRange     '0.6.4',
+32 silly addNameRange     '0.6.5',
+32 silly addNameRange     '0.6.6',
+32 silly addNameRange     '0.6.7',
+32 silly addNameRange     '0.6.8',
+32 silly addNameRange     '0.6.9',
+32 silly addNameRange     '0.7.0',
+32 silly addNameRange     '0.7.1',
+32 silly addNameRange     '0.7.2',
+32 silly addNameRange     '0.7.3',
+32 silly addNameRange     '0.7.4',
+32 silly addNameRange     '0.7.5',
+32 silly addNameRange     '0.7.6' ] ]
+33 verbose addNamed [ 'node-static', '0.7.6' ]
+34 verbose addNamed [ '0.7.6', '0.7.6' ]
+35 silly lockFile 04f479d4-node-static-0-7-6 node-static@0.7.6
+36 verbose lock node-static@0.7.6 /home/yug/.npm/04f479d4-node-static-0-7-6.lock
+37 silly lockFile cf0da5be-ode-static-node-static-0-7-6-tgz https://registry.npmjs.org/node-static/-/node-static-0.7.6.tgz
+38 verbose lock https://registry.npmjs.org/node-static/-/node-static-0.7.6.tgz /home/yug/.npm/cf0da5be-ode-static-node-static-0-7-6-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-static/-/node-static-0.7.6.tgz',
+39 verbose addRemoteTarball   'ac032e40de6881fb5e4dadeed6e1d07d37268380' ]
+40 info retry fetch attempt 1 at 22:16:00
+41 verbose fetch to= /tmp/npm-10258-2GK4DJFd/registry.npmjs.org/node-static/-/node-static-0.7.6.tgz
+42 http GET https://registry.npmjs.org/node-static/-/node-static-0.7.6.tgz
+43 http 200 https://registry.npmjs.org/node-static/-/node-static-0.7.6.tgz
+44 silly lockFile cf0da5be-ode-static-node-static-0-7-6-tgz https://registry.npmjs.org/node-static/-/node-static-0.7.6.tgz
+45 silly lockFile cf0da5be-ode-static-node-static-0-7-6-tgz https://registry.npmjs.org/node-static/-/node-static-0.7.6.tgz
+46 silly lockFile 04f479d4-node-static-0-7-6 node-static@0.7.6
+47 silly lockFile 04f479d4-node-static-0-7-6 node-static@0.7.6
+48 silly lockFile 5704b874-node-static node-static@
+49 silly lockFile 5704b874-node-static node-static@
+50 error Error: EACCES, mkdir '/home/yug/.npm/node-static/0.7.6'
+50 error  { [Error: EACCES, mkdir '/home/yug/.npm/node-static/0.7.6']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/home/yug/.npm/node-static/0.7.6',
+50 error   parent: 'wikiatlas' }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-44-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "node-static" "--save"
+54 error cwd /data/yug/projects_active/make-modules/node_modules
+55 error node -v v0.10.33
+56 error npm -v 1.4.28
+57 error path /home/yug/.npm/node-static/0.7.6
+58 error code EACCES
+59 error errno 3
+60 error stack Error: EACCES, mkdir '/home/yug/.npm/node-static/0.7.6'
+61 verbose exit [ 3, true ]
